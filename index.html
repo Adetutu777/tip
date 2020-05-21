@@ -15,18 +15,18 @@
   <div class="column1">
 
    <form>
-    <h2>Tip Calculator</h2>
+    <h1>Tip Calculator</h1>
 
 <!--inputs of the bill to be paid-->
-    <label form="bill" class="A">(₦)Bill:</label></br>
-  <input type="text" class="input-box" name="bill" value=""><br>
+    <label form="bill" class="letty"><b>(₦)Bill:</b></label></br>
+  <input type="text" class="input-box" name="bill" placeholder="Enter your bill" required ><br>
 
    </form>
 
 
 <!--percentage of tip the guest wants to give-->
 <form>
- <label form="tip" class="A"><b>Tip %:</b></label></br>
+ <label form="tip" class="letty"><b>Tip %:</b></label></br>
     <select id="tip" >
   <option >Click to select</option>
   <option value="30">30%  -Fantastic </option>
@@ -41,14 +41,13 @@
 <!--No. of people that visit & would be sharing-->
  <form>
   <div class="share">
-    <label form="bill" class="A"><b>No. of People sharing the bill:</b></label></br>
-  <input type="number" id="input" min="1"><br>
+    <label form="bill" class="letty"><b>No. of people sharing the bill:</b></label></br>
+  <input type="number" id="input" min="1" placeholder="Bill Sharing"><br>
 
   </div>
-
-    <button type="button" class="charset"><b>CALCULATE</b></button>
-
    </form>
+   <button type="button" class="charset"><b>CALCULATE</b></button>
+
 <div id="score">
 <p> Your tip is:
  <span class= "line"> ₦0 </span>
